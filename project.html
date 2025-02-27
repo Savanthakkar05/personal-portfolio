@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <body class="bg-gray-50 text-gray-900">
+    
+
+        <!-- Navbar -->
+        <nav class="bg-blue-600 p-4 shadow-lg">
+            <div class="container mx-auto flex justify-between items-center">
+                <!-- Logo/Brand Name -->
+                <a href="index.html" class="text-white text-2xl font-bold">My Portfolio</a>
+                <!-- Navigation Links -->
+                <ul class="flex space-x-6">
+                    <li><a href="about-me.html" class="text-white hover:text-blue-300 ">About Me</a></li>
+                    <li><a href="skill.html" class="text-white hover:text-blue-300">Skills</a></li>
+                    <li><a href="project.html" class="text-white hover:text-blue-300 active">Projects</a></li>
+                    <li><a href="contact.html" class="text-white hover:text-blue-300">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+<section id="hero" class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://via.placeholder.com/1500x800');">
+    <div class="bg-black bg-opacity-50 w-full h-full flex items-center justify-center">
+        <div class="text-center text-white">
+            <h1 class="text-5xl font-bold mb-4">Hello, I'm Savan Thakkar</h1>
+            <p class="text-xl mb-8">I build beautiful and functional websites.</p>
+            <a href="contact.html" class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-700 transition duration-300">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-8">Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+            <div class="bg-gray-200 p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mb-4">Food Delivery Web Application</h3>
+                <p class="text-gray-600">It is a Web Application project. In this project, We used HTML, CSS, JavaScript, Bootstrap as front-end technologies and in the back-end we used PHP and MYSQL.In this project we were four members for this project.In this project We develop some feature like food ordering, table booking etc. In this project My role was a as front-end developer. </p>
+            </div>
+            <div class="bg-gray-200 p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mb-4">Student Portal</h3>
+                <p class="text-gray-600">It is a Web Application project. In this project We were four members for developing this project. In this project we used React as front-end technologies and in the back-end we used Node.js , Express.js and in the database we used MongoDB.In this project we develop some features like handle Student details like Exam fees, Result Marksheet , Exam Seating arrangement etc. In this project My role was as a back-end developer.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-600 p-4 text-center text-white">
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+</footer>
+</body>
+</html>
